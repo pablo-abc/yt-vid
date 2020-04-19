@@ -1,0 +1,10 @@
+:host {
+  all: initial;
+  display: block;
+  contain: content;
+}
+
+iframe {
+  width: var(--youtube-width, initial);
+  height: var(--youtube-height, initial);
+}
