@@ -5,6 +5,9 @@
 }
 
 iframe {
-  width: var(--youtube-width, initial);
-  height: var(--youtube-height, initial);
+  width: var(--width, initial);
+  height: var(--height, initial);
+  border: var(--border, inherit);
+  border-radius: var(--border-radius, inherit);
+  box-sizing: border-box;
 }
