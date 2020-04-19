@@ -7,6 +7,10 @@
 iframe {
   width: var(--width, initial);
   height: var(--height, initial);
+  min-width: var(--min-width, initial);
+  min-height: var(--min-height, initial);
+  max-width: var(--max-width, initial);
+  max-height: var(--max-height, initial);
   border: var(--border, inherit);
   border-radius: var(--border-radius, inherit);
   box-sizing: border-box;
